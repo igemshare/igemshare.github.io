@@ -5,7 +5,7 @@ window.console = window.console || (function($){
 	return c;
 })();
 
-$(document).ready(function($){ 
+$(document).ready(function(){ 
 				   
 var styleswitcherstr = ' \
 	<h2>Style Switcher <a href="#"></a></h2> \
@@ -396,7 +396,7 @@ if ($.cookie('mycookie')) {
 });
 
 /* Skins Style */
-$(document).ready(function($){
+$(document).ready(function(){
 
     var cookieName = 'default';
 
