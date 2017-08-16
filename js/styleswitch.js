@@ -402,7 +402,7 @@ $(document).ready(function($){
 
     function changeLayout(layout) {
     $.cookie(cookieName, layout);
-    $('head link[data-name=skins]').attr('href', 'http://2017.igem.org/Template:Shanghaitech/css/skins/' + layout + '?action=raw&ctype=text/css');
+    $('head link[data-name=skins]').attr('href', 'https://igemshare.github.io/css/skins/' + layout + '.css');
     }
 
     if( $.cookie(cookieName)) {
