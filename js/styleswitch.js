@@ -396,7 +396,7 @@ if ($.cookie('mycookie')) {
 });
 
 /* Skins Style */
-$(document).ready(function(){
+window.onload=function(){
 
     var cookieName = 'default';
 
@@ -441,7 +441,7 @@ $(document).ready(function(){
     changeLayout('orange');
     });
 
-});
+}
 
 
 /* Reset Switcher */
